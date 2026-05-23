@@ -372,7 +372,7 @@ if (isset($_POST['action']) && $_POST['action'] === 'login' && $system_message !
                                 <td><?php echo str_repeat('💖', intval($f['rating'])); ?></td>
                                 <td><?php echo $f['comment']; ?></td>
                             </tr>
-                        <?php endphp ?>
+                        /* <?php endphp ?> */
                         <?php endforeach; ?>
                     </tbody>
                 </table>
